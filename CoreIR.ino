@@ -13,7 +13,7 @@
 //CONFIGURABLE SECTION - SET TRANSPONDER ID
 //Change transponder ID # by setting a different transponder number for tx_id
 //WARNING: IDs set by CoreIR-Uplink tool will override these numbers
-const long tx_id = 5118895;
+const long tx_id = 3131313; //ACDC
 const long tx_alt_id = 8901234;
 const int easylap_id = 2;
 
@@ -47,7 +47,7 @@ const int easylap_id = 2;
   #define bridgePinIn 14
   #define bridgePinOut 15
   // Change the status LED location to the proper pin for the atmega32U4
-  const int ledPin = 17;
+  const int ledPin = 10;//17
 #else
   // Set up alternate ID jumper bridge using normal pins 5 and 6
   #define bridgePinIn 5
